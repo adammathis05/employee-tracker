@@ -33,7 +33,7 @@ function startApp() {
           addDepartment();
           break;
         case "Add a role":
-          addRoleAA();
+          addRole();
           break;
         case "Add an employee":
           addEmployee();
@@ -79,7 +79,7 @@ async function addDepartment() {
     startApp();
 }
 
-async function addRoleAA() {
+async function addRole() {
     const { rows } = await pool.query("SELECT id AS value, name AS name FROM department");
     const answer = await prompt([{
         type: "input",
@@ -100,3 +100,6 @@ async function addRoleAA() {
     startApp();
 }
 
+async function addEmployee() {
+    
+}
