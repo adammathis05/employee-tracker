@@ -18,5 +18,5 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 - AskBCS Learning Assistant
 - BCS Tutoring Services
-- 
-- 
+- https://www.w3schools.com/js/js_async.asp
+- https://www.postgresql.org/docs/current/app-psql.html
